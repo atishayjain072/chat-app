@@ -52,7 +52,7 @@ const Messages = () => {
   );
 
   return (
-    <ul className="mgs-list cutom-scroll">
+    <ul className="msg-list cutom-scroll">
       {isChatEmpty && <li>No messages yet</li>}
       {canShowMessages &&
         messages.map(msg => (
