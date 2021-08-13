@@ -27,7 +27,7 @@ const Top = () => {
           />
           <span className="text-disappear">{name}</span>
         </h4>
-        <ButtonToolbar className="white-space:no-wrap">
+        <ButtonToolbar className="ws-nowrap">
           {isAdmin && <EditRoomBtnDrawer />}
         </ButtonToolbar>
       </div>
