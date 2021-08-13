@@ -79,6 +79,7 @@ const Bottom = () => {
       const lastMsgId = Object.keys(updates).pop();
       updates[`/rooms/${chatId}/lastMessage`] = {
         ...updates[lastMsgId],
+
         msgId: lastMsgId,
       };
 
