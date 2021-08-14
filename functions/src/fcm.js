@@ -5,7 +5,7 @@ const database = admin.database();
 const messaging = admin.messaging();
 
 exports.sendFcm = functions
-  .region('us-central1')
+  .region('europe-west3')
   .https.onCall(async (data, context) => {
     checkIfAuth(context);
 
