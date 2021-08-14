@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import firebase from 'firebase/app';
 import { auth, database, messaging } from '../misc/firebase';
