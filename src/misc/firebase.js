@@ -21,7 +21,7 @@ const app = firebase.initializeApp(config);
 export const auth = app.auth();
 export const database = app.database();
 export const storage = app.storage();
-export const functions = app.functions('europe-west3');
+export const functions = app.functions('us-central1');
 
 export const messaging = firebase.messaging.isSupported()
   ? app.messaging()
